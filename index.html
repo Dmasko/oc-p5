@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-<html>
 <head>
 	<meta charset="UTF-8">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina-carducci",
+			"image": "./assets/images/nina.webp,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "France"
+			},
+			"telephone": "+33 5 56 67 78 89",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			]
+		}
+		</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
