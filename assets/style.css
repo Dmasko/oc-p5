@@ -252,7 +252,14 @@ footer
 	justify-content: flex-start;
 	color: white;
 }
-
+.carousel-control-next-icon
+{
+	background-color: #000;
+}
+.carousel-control-prev-icon
+{
+	background-color: #000;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
